@@ -1,1 +1,1 @@
-# course-web-yaroslav
+# course-web-yaroslav.github.io
