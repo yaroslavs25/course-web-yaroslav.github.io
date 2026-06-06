@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти | ROBOT FACTORY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <div class="logo">
+    <a href="index.html" style="text-decoration: none;">
+        <span class="logo-text" style="color: white;">ROBOT<span style="color: #ffb700;">FACTORY</span></span>
+    </a>
+</div>
+            
+            <nav class="nav" id="mobile-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html">ГОЛОВНА</a></li>
+                    <li><a href="about.html">ПРО НАС</a></li>
+                    <li><a href="shop.html">МАГАЗИН</a></li> 
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacts.html" class="active">КОНТАКТИ</a></li>
+                </ul>
+            </nav>
+
+            <button class="burger-btn" id="burger-btn">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Зв'яжіться з нами</h2>
+                
+                <div style="display: grid; grid-template-columns: 1fr; gap: 40px; margin-top: 40px;">
+                    <div class="contact-info" style="background: #f9f9f9; padding: 30px; border-radius: 8px; text-align: center;">
+                        <h3 style="font-family: var(--font-heading); margin-bottom: 20px; color: var(--primary-color);">Наші координати</h3>
+                        <p style="margin-bottom: 10px;"><strong>Адреса:</strong> м. Івано-Франківськ, вул. Роботична, 1</p>
+                        <p style="margin-bottom: 10px;"><strong>Телефон:</strong> +380 99 000 00 00</p>
+                        <p style="margin-bottom: 10px;"><strong>Email:</strong> info@robotfactory.com</p>
+                    </div>
+
+                    <div class="contact-form-block" style="max-width: 600px; margin: 0 auto; width: 100%;">
+                        <form id="page-contact-form">
+                            <input type="text" placeholder="Ваше ім'я" required style="width: 100%; padding: 15px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+                            <input type="email" placeholder="Ваш Email" required style="width: 100%; padding: 15px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+                            <textarea placeholder="Ваше повідомлення" required style="width: 100%; padding: 15px; height: 150px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+                            <button type="submit" style="width: 100%; padding: 15px; background: var(--primary-color); color: #333; border: none; font-family: var(--font-heading); font-size: 18px; text-transform: uppercase; cursor: pointer; border-radius: 4px; font-weight: bold;">Надіслати повідомлення</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>Our Popular Services</h4>
+                <p>Space Robot<br>Large Robot<br>Toy For Kids</p>
+            </div>
+            <div class="footer-col">
+                <h4>Important Link</h4>
+                <p>Lorem<br>Ipsum<br>Dolor</p>
+            </div>
+            <div class="footer-col">
+                <h4>Our Latest Services</h4>
+                <p>Edu Robot<br>Less Robot<br>Mega Robot</p>
+            </div>
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <p>Industry Robot<br>Sport Robot</p>
+            </div>
+        </div>
+        <div class="container" style="text-align: center; margin-top: 30px;">
+            <p>&copy; 2026 ROBOT FACTORY. Усі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
